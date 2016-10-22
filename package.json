@@ -1,0 +1,32 @@
+{
+  "name": "ripple-decoding-visualization",
+  "version": "0.1.0",
+  "description": "Visualization of ripple decoding algorithm",
+  "main": "public/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edeno/Ripple-Decoding-Visualization.git"
+  },
+  "keywords": [
+    "sharp-wave-ripples",
+    "CA1",
+    "hippocampus",
+    "neuroscience",
+    "visualization",
+    "decoding"
+  ],
+  "author": "Eric Denovellis <edenovellis@msn.com> (http://ericdeno.com)",
+  "license": "MIT",
+  "jsnext:main": "index",
+  "dependencies": {
+    "d3": "^4.2.8"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "rollup-stream": "^1.14.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
