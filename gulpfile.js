@@ -7,5 +7,5 @@ gulp.task('rollup', function () {
       entry: './app/main.js',
     })
     .pipe(source('main.js'))
-    .pipe(gulp.dest('./public'));
+    .pipe(gulp.dest('./public/js'));
 });
